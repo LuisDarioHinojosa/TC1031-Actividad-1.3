@@ -1,0 +1,492 @@
+13:41:48 **** Rebuild of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BotSecurity.o" "..\\src\\BotSecurity.cpp" 
+g++ -o BotSecurity.exe "src\\BotSecurity.o" 
+Info: Nothing to build for BotSecurity
+13:53:17 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -o BotSecurity.exe "src\\BinnacleLine.o" "src\\BotSecurity.o" 
+13:55:03 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+..\src\BinnacleLine.cpp:10:1: error: definition of explicitly-defaulted 'BinnacleLine::BinnacleLine()'
+ BinnacleLine::BinnacleLine() {
+ ^~~~~~~~~~~~
+In file included from ..\src\BinnacleLine.cpp:8:
+..\src\BinnacleLine.h:15:2: note: 'BinnacleLine::BinnacleLine()' explicitly defaulted here
+  BinnacleLine() = default;
+  ^~~~~~~~~~~~
+13:55:20 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -o BotSecurity.exe "src\\BinnacleLine.o" "src\\BotSecurity.o" 
+14:42:10 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\BotSecurity.o" 
+14:43:55 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\BotSecurity.o" 
+14:48:10 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\BotSecurity.o" 
+14:49:35 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main.o" 
+14:54:56 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main.o" 
+14:55:36 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main.o" 
+Info: Nothing to build for BotSecurity
+14:59:55 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:25:2: error: 'ifstream' was not declared in this scope
+  ifstream file(filename);
+  ^~~~~~~~
+..\src\Binnacle.cpp:25:2: note: suggested alternative:
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\localefwd.h:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:43,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iosfwd:162:34: note:   'std::ifstream'
+   typedef basic_ifstream<char>   ifstream;
+                                  ^~~~~~~~
+15:00:16 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main.o" 
+15:00:46 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:26:17: error: 'std::__cxx11::string' {aka 'class std::__cxx11::basic_string<char>'} has no member named 'is_open'
+     if(filename.is_open()) throw std::runtime_error("Could not open file");
+                 ^~~~~~~
+15:01:25 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main.o" 
+15:05:00 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:32:14: error: redeclaration of 'std::__cxx11::string line'
+  std::string line;
+              ^~~~
+..\src\Binnacle.cpp:27:14: note: 'std::__cxx11::string line' previously declared here
+  std::string line;
+              ^~~~
+15:05:07 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main.o" 
+15:08:09 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main.o" 
+15:09:09 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main.o" 
+15:09:43 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:10:38 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:11:04 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:11:11 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:12:26 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+15:15:52 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+..\src\BinnacleLine.cpp:10:1: error: no declaration matches 'BinnacleLine::BinnacleLine(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, std::__cxx11::string)'
+ BinnacleLine::BinnacleLine(std::string,std::string,std::string,std::string,std::string,std::string,std::string,std::string) {
+ ^~~~~~~~~~~~
+In file included from ..\src\BinnacleLine.cpp:8:
+..\src\BinnacleLine.h:13:7: note: candidates are: 'BinnacleLine::BinnacleLine(const BinnacleLine&)'
+ class BinnacleLine {
+       ^~~~~~~~~~~~
+..\src\BinnacleLine.h:15:2: note:                 'BinnacleLine::BinnacleLine()'
+  BinnacleLine() = default;
+  ^~~~~~~~~~~~
+..\src\BinnacleLine.h:13:7: note: 'class BinnacleLine' defined here
+ class BinnacleLine {
+       ^~~~~~~~~~~~
+15:16:05 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:20:05 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:21:13 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:23:01 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:26:11 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:28:39 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+15:32:15 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:33:16 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:36:13 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:37:32 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+15:40:51 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:43:04 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+..\src\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\BinnacleLine.cpp:62:5: error: no match for 'operator<<' (operand types are 'std::ostream' {aka 'std::basic_ostream<char>'} and 'const char [7]')
+  os << "Date: " << line.date << " |Time: " << line.time << " |Origin IP: " << line.originIP << " |Origin Port: " << line.originPort << " |Origin Name: " << line.originName <<std::endl;
+  ~~~^~~~~~~~~~~
+..\src\BinnacleLine.cpp:61:16: note: candidate: 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)'
+ std::ostream & operator<<(std::ostream & os, const BinnacleLine & line){
+                ^~~~~~~~
+..\src\BinnacleLine.cpp:61:16: note:   no known conversion for argument 2 from 'const char [7]' to 'const BinnacleLine&'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:52,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\BinnacleLine.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6314:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6314:5: note:   template argument deduction/substitution failed:
+..\src\BinnacleLine.cpp:62:8: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'const char [7]'
+  os << "Date: " << line.date << " |Time: " << line.time << " |Origin IP: " << line.originIP << " |Origin Port: " << line.originPort << " |Origin Name: " << line.originName <<std::endl;
+        ^~~~~~~~
+..\src\BinnacleLine.cpp:62:180: error: 'endl' is not a member of 'std'
+  os << "Date: " << line.date << " |Time: " << line.time << " |Origin IP: " << line.originIP << " |Origin Port: " << line.originPort << " |Origin Name: " << line.originName <<std::endl;
+                                                                                                                                                                                    ^~~~
+..\src\BinnacleLine.cpp:62:180: note: 'std::endl' is defined in header '<ostream>'; did you forget to '#include <ostream>'?
+..\src\BinnacleLine.cpp:9:1:
++#include <ostream>
+ 
+..\src\BinnacleLine.cpp:62:180:
+  os << "Date: " << line.date << " |Time: " << line.time << " |Origin IP: " << line.originIP << " |Origin Port: " << line.originPort << " |Origin Name: " << line.originName <<std::endl;
+                                                                                                                                                                                    ^~~~
+..\src\BinnacleLine.cpp:63:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+15:43:09 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+..\src\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\BinnacleLine.cpp:62:5: error: no match for 'operator<<' (operand types are 'std::ostream' {aka 'std::basic_ostream<char>'} and 'const char [7]')
+  os << "Date: " << line.date << " |Time: " << line.time << " |Origin IP: " << line.originIP << " |Origin Port: " << line.originPort << " |Origin Name: " << line.originName <<std::endl;
+  ~~~^~~~~~~~~~~
+..\src\BinnacleLine.cpp:61:16: note: candidate: 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)'
+ std::ostream & operator<<(std::ostream & os, const BinnacleLine & line){
+                ^~~~~~~~
+..\src\BinnacleLine.cpp:61:16: note:   no known conversion for argument 2 from 'const char [7]' to 'const BinnacleLine&'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:52,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\BinnacleLine.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6314:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6314:5: note:   template argument deduction/substitution failed:
+..\src\BinnacleLine.cpp:62:8: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'const char [7]'
+  os << "Date: " << line.date << " |Time: " << line.time << " |Origin IP: " << line.originIP << " |Origin Port: " << line.originPort << " |Origin Name: " << line.originName <<std::endl;
+        ^~~~~~~~
+..\src\BinnacleLine.cpp:62:180: error: 'endl' is not a member of 'std'
+  os << "Date: " << line.date << " |Time: " << line.time << " |Origin IP: " << line.originIP << " |Origin Port: " << line.originPort << " |Origin Name: " << line.originName <<std::endl;
+                                                                                                                                                                                    ^~~~
+..\src\BinnacleLine.cpp:62:180: note: 'std::endl' is defined in header '<ostream>'; did you forget to '#include <ostream>'?
+..\src\BinnacleLine.cpp:9:1:
++#include <ostream>
+ 
+..\src\BinnacleLine.cpp:62:180:
+  os << "Date: " << line.date << " |Time: " << line.time << " |Origin IP: " << line.originIP << " |Origin Port: " << line.originPort << " |Origin Name: " << line.originName <<std::endl;
+                                                                                                                                                                                    ^~~~
+..\src\BinnacleLine.cpp:63:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+15:43:32 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+..\src\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\BinnacleLine.cpp:63:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:45:08 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BinnacleLine.o" "..\\src\\BinnacleLine.cpp" 
+..\src\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\BinnacleLine.cpp:63:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+15:56:37 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+15:56:56 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:57:14 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+15:59:46 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:20:29: error: variable 'std::istringstream iss' has initializer but incomplete type
+  std::istringstream iss(line);
+                             ^
+..\src\main\main.cpp:21:41: error: 'istream_iterator' is not a member of 'std'
+  std::vector<std::string> results((std::istream_iterator<WordDelimitedByComma>(iss)),
+                                         ^~~~~~~~~~~~~~~~
+..\src\main\main.cpp:21:41: note: 'std::istream_iterator' is defined in header '<iterator>'; did you forget to '#include <iterator>'?
+..\src\main\main.cpp:13:1:
++#include <iterator>
+ int main() {
+..\src\main\main.cpp:21:41:
+  std::vector<std::string> results((std::istream_iterator<WordDelimitedByComma>(iss)),
+                                         ^~~~~~~~~~~~~~~~
+..\src\main\main.cpp:21:58: error: 'WordDelimitedByComma' was not declared in this scope
+  std::vector<std::string> results((std::istream_iterator<WordDelimitedByComma>(iss)),
+                                                          ^~~~~~~~~~~~~~~~~~~~
+..\src\main\main.cpp:22:40: error: 'istream_iterator' is not a member of 'std'
+                                   std::istream_iterator<WordDelimitedByComma>());
+                                        ^~~~~~~~~~~~~~~~
+..\src\main\main.cpp:22:40: note: 'std::istream_iterator' is defined in header '<iterator>'; did you forget to '#include <iterator>'?
+..\src\main\main.cpp:22:79: error: expected primary-expression before ')' token
+                                   std::istream_iterator<WordDelimitedByComma>());
+                                                                               ^
+16:01:00 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:21:29: error: variable 'std::istringstream iss' has initializer but incomplete type
+  std::istringstream iss(line);
+                             ^
+..\src\main\main.cpp:22:58: error: 'WordDelimitedByComma' was not declared in this scope
+  std::vector<std::string> results((std::istream_iterator<WordDelimitedByComma>(iss)),
+                                                          ^~~~~~~~~~~~~~~~~~~~
+..\src\main\main.cpp:22:78: error: template argument 1 is invalid
+  std::vector<std::string> results((std::istream_iterator<WordDelimitedByComma>(iss)),
+                                                                              ^
+..\src\main\main.cpp:23:77: error: type/value mismatch at argument 1 in template parameter list for 'template<class _Tp, class _CharT, class _Traits, class _Dist> class std::istream_iterator'
+                                   std::istream_iterator<WordDelimitedByComma>());
+                                                                             ^
+..\src\main\main.cpp:23:77: note:   expected a type, got 'WordDelimitedByComma'
+16:02:55 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:21:29: error: variable 'std::istringstream iss' has initializer but incomplete type
+  std::istringstream iss(line);
+                             ^
+16:03:49 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:05:05 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:05:51 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:29:30: error: no matching function for call to 'std::vector<std::__cxx11::basic_string<char> >::push_back(int&)'
+         lineStuff.push_back(i);
+                              ^
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\vector:64,
+                 from ..\src\main\../Binnacle.h:11,
+                 from ..\src\main\main.cpp:15:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1074:7: note: candidate: 'void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::value_type = std::__cxx11::basic_string<char>]'
+       push_back(const value_type& __x)
+       ^~~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1074:7: note:   no known conversion for argument 1 from 'int' to 'const value_type&' {aka 'const std::__cxx11::basic_string<char>&'}
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1090:7: note: candidate: 'void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::value_type = std::__cxx11::basic_string<char>]'
+       push_back(value_type&& __x)
+       ^~~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1090:7: note:   no known conversion for argument 1 from 'int' to 'std::vector<std::__cxx11::basic_string<char> >::value_type&&' {aka 'std::__cxx11::basic_string<char>&&'}
+16:06:02 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:29:30: error: no matching function for call to 'std::vector<std::__cxx11::basic_string<char> >::push_back(int&)'
+         lineStuff.push_back(i);
+                              ^
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\vector:64,
+                 from ..\src\main\../Binnacle.h:11,
+                 from ..\src\main\main.cpp:15:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1074:7: note: candidate: 'void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::value_type = std::__cxx11::basic_string<char>]'
+       push_back(const value_type& __x)
+       ^~~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1074:7: note:   no known conversion for argument 1 from 'int' to 'const value_type&' {aka 'const std::__cxx11::basic_string<char>&'}
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1090:7: note: candidate: 'void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::value_type = std::__cxx11::basic_string<char>]'
+       push_back(value_type&& __x)
+       ^~~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1090:7: note:   no known conversion for argument 1 from 'int' to 'std::vector<std::__cxx11::basic_string<char> >::value_type&&' {aka 'std::__cxx11::basic_string<char>&&'}
+16:06:39 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:10:03 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:10:19 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:12:04 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h: In instantiation of 'static _OI std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m(_II, _II, _OI) [with _II = std::__cxx11::basic_string<char>*; _OI = std::ostream_iterator<float>]':
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:386:30:   required from '_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = std::__cxx11::basic_string<char>*; _OI = std::ostream_iterator<float>]'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:422:45:   required from '_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _OI = std::ostream_iterator<float>]'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:455:8:   required from '_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _OI = std::ostream_iterator<float>]'
+..\src\main\main.cpp:42:88:   required from here
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:324:18: error: no match for 'operator=' (operand types are 'std::ostream_iterator<float>' and 'std::__cxx11::basic_string<char>')
+        *__result = *__first;
+        ~~~~~~~~~~^~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iterator:66,
+                 from ..\src\main\main.cpp:13:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stream_iterator.h:194:7: note: candidate: 'std::ostream_iterator<_Tp, _CharT, _Traits>& std::ostream_iterator<_Tp, _CharT, _Traits>::operator=(const _Tp&) [with _Tp = float; _CharT = char; _Traits = std::char_traits<char>]'
+       operator=(const _Tp& __value)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stream_iterator.h:194:7: note:   no known conversion for argument 1 from 'std::__cxx11::basic_string<char>' to 'const float&'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stream_iterator.h:154:11: note: candidate: 'constexpr std::ostream_iterator<float>& std::ostream_iterator<float>::operator=(const std::ostream_iterator<float>&)'
+     class ostream_iterator
+           ^~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stream_iterator.h:154:11: note:   no known conversion for argument 1 from 'std::__cxx11::basic_string<char>' to 'const std::ostream_iterator<float>&'
+16:12:28 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:13:00 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h: In instantiation of 'static _OI std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m(_II, _II, _OI) [with _II = std::__cxx11::basic_string<char>*; _OI = std::ostream_iterator<float>]':
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:386:30:   required from '_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = std::__cxx11::basic_string<char>*; _OI = std::ostream_iterator<float>]'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:422:45:   required from '_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _OI = std::ostream_iterator<float>]'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:455:8:   required from '_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _OI = std::ostream_iterator<float>]'
+..\src\main\main.cpp:43:88:   required from here
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:324:18: error: no match for 'operator=' (operand types are 'std::ostream_iterator<float>' and 'std::__cxx11::basic_string<char>')
+        *__result = *__first;
+        ~~~~~~~~~~^~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iterator:66,
+                 from ..\src\main\main.cpp:13:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stream_iterator.h:194:7: note: candidate: 'std::ostream_iterator<_Tp, _CharT, _Traits>& std::ostream_iterator<_Tp, _CharT, _Traits>::operator=(const _Tp&) [with _Tp = float; _CharT = char; _Traits = std::char_traits<char>]'
+       operator=(const _Tp& __value)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stream_iterator.h:194:7: note:   no known conversion for argument 1 from 'std::__cxx11::basic_string<char>' to 'const float&'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stream_iterator.h:154:11: note: candidate: 'constexpr std::ostream_iterator<float>& std::ostream_iterator<float>::operator=(const std::ostream_iterator<float>&)'
+     class ostream_iterator
+           ^~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stream_iterator.h:154:11: note:   no known conversion for argument 1 from 'std::__cxx11::basic_string<char>' to 'const std::ostream_iterator<float>&'
+16:13:44 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::__cxx11::basic_string<char> >::size_type' {aka 'unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < results.size(); i++){
+                 ~~^~~~~~~~~~~~~~~~
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+16:14:35 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:43:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::__cxx11::basic_string<char> >::size_type' {aka 'unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < results.size(); i++){
+                 ~~^~~~~~~~~~~~~~~~
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+16:15:00 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:42:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::__cxx11::basic_string<char> >::size_type' {aka 'unsigned int'} [-Wsign-compare]
+  for(int i = 0; i < results.size(); i++){
+                 ~~^~~~~~~~~~~~~~~~
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:17:06 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 

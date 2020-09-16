@@ -1,0 +1,16 @@
+//============================================================================
+// Name        : BotSecurity.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+int main() {
+	std::cout << "!!!Hello World!!!" << std::endl; // prints !!!Hello World!!!
+	std::string filename = "../csvFile/equipo5.csv";
+
+	return 0;
+}

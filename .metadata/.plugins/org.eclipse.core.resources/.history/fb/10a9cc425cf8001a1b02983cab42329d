@@ -1,0 +1,25 @@
+/*
+ * BinnacleLine.cpp
+ *
+ *  Created on: 16 sep. 2020
+ *      Author: luisd
+ */
+
+#include "BinnacleLine.h"
+
+// Basic Constructor
+BinnacleLine::BinnacleLine(std::string date,std::string hour,std::string originIP,int originPort,std::string originName,std::string destinyIP,int destinyPort,std::string destinyName)
+:date(date),time(hour),originIP(originIP),originPort(originPort),originName(originName),destinyIP(destinyIP),destinyPort(destinyPort),destinyName(destinyName)
+{}
+
+
+BinnacleLine::~BinnacleLine() {
+	// TODO Auto-generated destructor stub
+}
+
+
+
+// Getters
+std::string BinnacleLine::getDate(){
+	return this->date;
+}

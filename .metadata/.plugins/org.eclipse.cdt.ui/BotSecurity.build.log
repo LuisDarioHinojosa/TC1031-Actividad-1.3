@@ -1,0 +1,7 @@
+16:17:06 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+
+16:17:07 Build Finished. 0 errors, 0 warnings. (took 919ms)
+

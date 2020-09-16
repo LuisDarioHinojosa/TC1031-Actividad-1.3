@@ -1,0 +1,18 @@
+/*
+ * BinnacleLine.cpp
+ *
+ *  Created on: 16 sep. 2020
+ *      Author: luisd
+ */
+
+#include "BinnacleLine.h"
+
+BinnacleLine::BinnacleLine() {
+	// TODO Auto-generated constructor stub
+
+}
+
+BinnacleLine::~BinnacleLine() {
+	// TODO Auto-generated destructor stub
+}
+
