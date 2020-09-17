@@ -1,0 +1,35 @@
+/*
+ * Binnacle.h
+ *
+ *  Created on: 16 sep. 2020
+ *      Author: luisd
+ */
+
+#ifndef BINNACLE_H_
+#define BINNACLE_H_
+#include "BinnacleLine.h"
+#include <vector>
+
+#pragma once
+
+class Binnacle {
+public:
+	Binnacle();
+	virtual ~Binnacle();
+	void readCsvLines(std::string filename);
+	int encodePorts(std::string);
+	// shows the number of entries in the vector
+	void showTotalNumberOfEntries();
+	void showEntries();
+
+	void searchComputer();
+
+
+
+
+private:
+	std::vector<BinnacleLine> data;
+
+};
+
+#endif /* BINNACLE_H_ */

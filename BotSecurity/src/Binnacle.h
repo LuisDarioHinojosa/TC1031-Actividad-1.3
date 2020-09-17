@@ -17,11 +17,30 @@ public:
 	Binnacle();
 	virtual ~Binnacle();
 	void readCsvLines(std::string filename);
+	int encodePorts(std::string);
+	// shows the number of entries in the vector
+	void showTotalNumberOfEntries();
+	void showEntries();
 
+
+	// Given a computer name, it will search it in destination and origin
+	void searchComputer(std::string name);
+
+	// Auxiliary Function: Returns the second registered date in the archive
+	std::string getSecondDate();
+	// Given a date, it will count and return the number of entries registered in that day
+	int entriesPerDate(std::string date);
+
+
+	// Will extract the first porcion of a mail
+	std::string extractMailName(std::string mail);
+
+
+	//Given a string representing a name, it will search the computer
+	int searchByName(std::string name);
 
 private:
 	std::vector<BinnacleLine> data;
-	std::vector<std::string> lines;
 
 };
 

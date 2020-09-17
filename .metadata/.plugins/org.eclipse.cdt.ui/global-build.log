@@ -490,3 +490,1160 @@ g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
 g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:42:39 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:40:3: error: 'stringstream' was not declared in this scope
+   stringstream ss(line);
+   ^~~~~~~~~~~~
+..\src\Binnacle.cpp:40:3: note: suggested alternative:
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\localefwd.h:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:43,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iosfwd:156:37: note:   'std::stringstream'
+   typedef basic_stringstream<char>  stringstream;
+                                     ^~~~~~~~~~~~
+..\src\Binnacle.cpp:37:6: warning: unused variable 'numOport' [-Wunused-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:37:16: warning: unused variable 'numDport' [-Wunused-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+16:43:00 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:43:3: error: 'stringstream' was not declared in this scope
+   stringstream ss(line);
+   ^~~~~~~~~~~~
+..\src\Binnacle.cpp:43:3: note: suggested alternative:
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\localefwd.h:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:43,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iosfwd:156:37: note:   'std::stringstream'
+   typedef basic_stringstream<char>  stringstream;
+                                     ^~~~~~~~~~~~
+..\src\Binnacle.cpp:40:6: warning: unused variable 'numOport' [-Wunused-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:40:16: warning: unused variable 'numDport' [-Wunused-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+16:44:37 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:43:3: error: 'stringstream' was not declared in this scope
+   stringstream ss(line);
+   ^~~~~~~~~~~~
+..\src\Binnacle.cpp:43:3: note: suggested alternative:
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\localefwd.h:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:43,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iosfwd:156:37: note:   'std::stringstream'
+   typedef basic_stringstream<char>  stringstream;
+                                     ^~~~~~~~~~~~
+..\src\Binnacle.cpp:40:6: warning: unused variable 'numOport' [-Wunused-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:40:16: warning: unused variable 'numDport' [-Wunused-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+16:45:18 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:40:6: warning: unused variable 'numOport' [-Wunused-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:40:16: warning: unused variable 'numDport' [-Wunused-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:45:40 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:36:29: error: variable 'std::istringstream iss' has initializer but incomplete type
+  std::istringstream iss(line);
+                             ^
+16:45:51 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+16:47:30 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:40:6: warning: unused variable 'numOport' [-Wunused-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:40:16: warning: unused variable 'numDport' [-Wunused-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:48:22 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:40:6: warning: unused variable 'numOport' [-Wunused-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:40:16: warning: unused variable 'numDport' [-Wunused-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:48:28 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'int Binnacle::encodePorts(std::__cxx11::string)':
+..\src\Binnacle.cpp:32:10: error: no match for 'operator==' (operand types are 'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} and 'char')
+  if (num == '-'){
+      ~~~~^~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:64,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:40,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_pair.h:443:5: note: candidate: 'template<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)'
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_pair.h:443:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::pair<_T1, _T2>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:40,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:299:5: note: candidate: 'template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)'
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:299:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::reverse_iterator<_Iterator>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:40,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:337:5: note: candidate: 'template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)'
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:337:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::reverse_iterator<_Iterator>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:40,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1112:5: note: candidate: 'template<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)'
+     operator==(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1112:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::move_iterator<_IteratorL>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:40,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1118:5: note: candidate: 'template<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)'
+     operator==(const move_iterator<_Iterator>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1118:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::move_iterator<_IteratorL>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:40,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\postypes.h:216:5: note: candidate: 'template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)'
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\postypes.h:216:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::fpos<_StateT>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:41,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\allocator.h:146:5: note: candidate: 'template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)'
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\allocator.h:146:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::allocator<_CharT>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:41,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\allocator.h:152:5: note: candidate: 'template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)'
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\allocator.h:152:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::allocator<_CharT>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:52,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6039:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6039:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'char'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:52,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6047:5: note: candidate: 'template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)'
+     operator==(const basic_string<_CharT>& __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6047:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   mismatched types 'const std::__cxx11::basic_string<_CharT>' and 'char'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:52,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6061:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator==(const _CharT* __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6061:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   mismatched types 'const _CharT*' and 'std::__cxx11::basic_string<char>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:52,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6073:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)'
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6073:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   mismatched types 'const _CharT*' and 'char'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\vector:64,
+                 from ..\src\Binnacle.h:11,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1753:5: note: candidate: 'template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)'
+     operator==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1753:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::vector<_Tp, _Alloc>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ios_base.h:46,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\Binnacle.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:292:3: note: candidate: 'bool std::operator==(const std::error_code&, const std::error_code&)'
+   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:292:3: note:   no known conversion for argument 1 from 'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} to 'const std::error_code&'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:297:3: note: candidate: 'bool std::operator==(const std::error_code&, const std::error_condition&)'
+   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+   ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:297:3: note:   no known conversion for argument 1 from 'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} to 'const std::error_code&'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:304:3: note: candidate: 'bool std::operator==(const std::error_condition&, const std::error_code&)'
+   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:304:3: note:   no known conversion for argument 1 from 'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} to 'const std::error_condition&'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:311:3: note: candidate: 'bool std::operator==(const std::error_condition&, const std::error_condition&)'
+   operator==(const error_condition& __lhs,
+   ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:311:3: note:   no known conversion for argument 1 from 'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} to 'const std::error_condition&'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\locale_facets.h:48,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_ios.h:37,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:44,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\Binnacle.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\streambuf_iterator.h:203:5: note: candidate: 'template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)'
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\streambuf_iterator.h:203:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::istreambuf_iterator<_CharT, _Traits>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iterator:66,
+                 from ..\src\Binnacle.cpp:13:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stream_iterator.h:130:5: note: candidate: 'template<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator==(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)'
+     operator==(const istream_iterator<_Tp, _CharT, _Traits, _Dist>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stream_iterator.h:130:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:40,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:860:5: note: candidate: 'template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)'
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:860:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:40,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:867:5: note: candidate: 'template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)'
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:867:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>'
+  if (num == '-'){
+             ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\mingw32\bits\c++allocator.h:33,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\allocator.h:46,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:41,
+                 from ..\src\BinnacleLine.h:10,
+                 from ..\src\Binnacle.h:10,
+                 from ..\src\Binnacle.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ext\new_allocator.h:155:5: note: candidate: 'template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)'
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ext\new_allocator.h:155:5: note:   template argument deduction/substitution failed:
+..\src\Binnacle.cpp:32:13: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const __gnu_cxx::new_allocator<_Tp>'
+  if (num == '-'){
+             ^~~
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:52:6: warning: unused variable 'numOport' [-Wunused-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:52:16: warning: unused variable 'numDport' [-Wunused-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+..\src\Binnacle.cpp: In member function 'int Binnacle::encodePorts(std::__cxx11::string)':
+..\src\Binnacle.cpp:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+16:48:42 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:52:6: warning: unused variable 'numOport' [-Wunused-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:52:16: warning: unused variable 'numDport' [-Wunused-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+..\src\Binnacle.cpp: In member function 'int Binnacle::encodePorts(std::__cxx11::string)':
+..\src\Binnacle.cpp:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:48:59 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'int Binnacle::encodePorts(std::__cxx11::string)':
+..\src\Binnacle.cpp:36:19: error: invalid cast from type 'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} to type 'int'
+   return (int)(num);
+                   ^
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:55:6: warning: unused variable 'numOport' [-Wunused-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:55:16: warning: unused variable 'numDport' [-Wunused-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+16:51:29 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:55:6: warning: unused variable 'numOport' [-Wunused-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:55:16: warning: unused variable 'numDport' [-Wunused-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:52:26 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+16:52:38 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+16:52:52 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:56:25 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:55:6: warning: variable 'numOport' set but not used [-Wunused-but-set-variable]
+  int numOport, numDport;
+      ^~~~~~~~
+..\src\Binnacle.cpp:55:16: warning: variable 'numDport' set but not used [-Wunused-but-set-variable]
+  int numOport, numDport;
+                ^~~~~~~~
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+16:57:59 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:58:29 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'void Binnacle::readCsvLines(std::__cxx11::string)':
+..\src\Binnacle.cpp:69:17: error: 'e' was not declared in this scope
+   data.pop_back(e);
+                 ^
+16:58:40 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:59:04 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:59:11 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+16:59:41 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:00:58 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:01:10 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:36:01 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:36:10 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+17:36:25 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+17:38:56 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+17:39:34 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+17:40:19 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:41:02 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:41:43 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:41:47 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+17:42:51 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:44:30 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp:48:5: error: no declaration matches 'int Binnacle::getTotalEntries()'
+ int Binnacle::getTotalEntries(){
+     ^~~~~~~~
+..\src\Binnacle.cpp:48:5: note: no functions named 'int Binnacle::getTotalEntries()'
+In file included from ..\src\Binnacle.cpp:8:
+..\src\Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+17:45:37 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:45:44 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:46:29 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+17:46:45 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+17:47:13 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+17:53:24 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+17:55:58 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+17:58:00 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:00:46 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:02:20 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:02:32 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp:86:1: error: expected declaration before '}' token
+ }
+ ^
+18:02:38 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp:86:1: error: expected declaration before '}' token
+ }
+ ^
+18:03:06 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp:83:1: error: expected declaration before '}' token
+ }
+ ^
+18:03:11 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:05:49 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:05:53 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:06:45 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:07:11 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp:82:6: error: no declaration matches 'void Binnacle::searchComputer()'
+ void Binnacle::searchComputer(){
+      ^~~~~~~~
+In file included from ..\src\Binnacle.cpp:8:
+..\src\Binnacle.h:25:7: note: candidate is: 'void Binnacle::searchComputer(std::__cxx11::string)'
+  void searchComputer(std::string name);
+       ^~~~~~~~~~~~~~
+..\src\Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+18:07:21 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:11:44 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:12:43 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:16:17 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+18:17:01 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+18:20:14 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+18:21:35 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+18:22:42 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:23:41 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:23:58 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:30:40 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:34:16 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp:111:13: error: no declaration matches 'std::__cxx11::string Binnacle::getSecondDate()'
+ std::string Binnacle::getSecondDate(){
+             ^~~~~~~~
+..\src\Binnacle.cpp:111:13: note: no functions named 'std::__cxx11::string Binnacle::getSecondDate()'
+In file included from ..\src\Binnacle.cpp:8:
+..\src\Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+18:34:27 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:34:47 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:36:58 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:38:07 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:38:22 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+18:38:38 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+18:40:37 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+18:41:42 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+19:12:04 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:15:48 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:16:33 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+19:23:39 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:25:04 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:26:29 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:28:33 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:29:51 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:30:29 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:31:15 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:32:28 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:33:09 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:33:23 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:33:53 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::extractMailName(std::__cxx11::string)':
+..\src\Binnacle.cpp:143:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:34:12 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:35:12 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::extractMailName(std::__cxx11::string)':
+..\src\Binnacle.cpp:144:2: error: expected ',' or ';' before 'std'
+  std::getline(ss,name,'.');
+  ^~~
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:35:17 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:36:48 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:45:41: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and '<unresolved overloaded function type>')
+  std::cout << bin.extractMailName(mail) << std::end;
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:108:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:108:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:117:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:117:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:127:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:127:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::ios_base& (*)(std::ios_base&)'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:166:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:166:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long int'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:170:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:170:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long unsigned int'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:174:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(bool __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:174:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'bool'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:693,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ostream.tcc:91:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ostream.tcc:91:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short int'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:181:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned short __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:181:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short unsigned int'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:693,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ostream.tcc:105:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ostream.tcc:105:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'int'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:192:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned int __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:192:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'unsigned int'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:201:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:201:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long int'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:205:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(unsigned long long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:205:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long unsigned int'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:220:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(double __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:220:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'double'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:224:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(float __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:224:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'float'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:232:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(long double __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:232:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long double'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:245:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+       operator<<(const void* __p)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:245:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const void*'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:693,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ostream.tcc:119:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ostream.tcc:119:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:52,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6314:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6314:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   couldn't deduce template parameter '_Alloc'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ios_base.h:46,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:217:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:217:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const std::error_code&'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:497:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT) [with _CharT = char; _Traits = std::char_traits<char>]'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:497:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'char'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:502:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:502:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'char'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:508:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:508:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'char'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:514:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:514:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'signed char'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:519:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:519:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'unsigned char'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:539:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>]'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:539:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const char*'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:693,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const char*'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:556:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:556:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const char*'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:569:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:569:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const signed char*'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:574:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:574:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   cannot convert 'std::end' (type '<unresolved overloaded function type>') to type 'const unsigned char*'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\src\main\main.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:682:5: note: candidate: 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)'
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:682:5: note:   template argument deduction/substitution failed:
+..\src\main\main.cpp:45:49: note:   couldn't deduce template parameter '_Tp'
+  std::cout << bin.extractMailName(mail) << std::end;
+                                                 ^~~
+19:37:05 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+19:45:22 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'int Binnacle::searchByName(std::__cxx11::string)':
+..\src\Binnacle.cpp:153:6: warning: unused variable 'count' [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+19:46:41 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Binnacle.o" "..\\src\\Binnacle.cpp" 
+..\src\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+19:47:41 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+19:48:07 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+19:48:30 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+19:48:43 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+19:49:02 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+19:49:20 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+19:49:35 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
