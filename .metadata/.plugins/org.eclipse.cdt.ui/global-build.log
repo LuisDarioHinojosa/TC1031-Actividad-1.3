@@ -1647,3 +1647,33 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
 g++ -o BotSecurity.exe "src\\Binnacle.o" "src\\BinnacleLine.o" "src\\main\\main.o" 
 Info: Nothing to build for BotSecurity
+21:08:47 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp:8:10: fatal error: BinnacleLine.h: No such file or directory
+ #include "BinnacleLine.h"
+          ^~~~~~~~~~~~~~~~
+compilation terminated.
+21:09:00 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp:14:10: fatal error: ../Binnacle.h: No such file or directory
+ #include "../Binnacle.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+21:09:27 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:63:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity

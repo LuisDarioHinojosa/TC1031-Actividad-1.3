@@ -11,13 +11,15 @@
 
 
 
-#include "../Headers/Binnacle.h"
+#include "../Binnacle.h"
 
 
 
 
 
-
+template<char delimiter>
+class WordDelimitedBy : public std::string
+{};
 
 
 
