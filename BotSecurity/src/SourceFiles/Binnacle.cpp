@@ -6,6 +6,7 @@
  */
 
 #include "../Headers/Binnacle.h"
+#include "../Headers/OrderAl.h"
 #include <iostream>
 #include <sstream>
 #include <fstream>
@@ -167,6 +168,15 @@ int Binnacle::searchByName(std::string name){
 }
 
 
+void Binnacle::sortedSearchByName(std::string name){
+	sortData('o',true,5);
+	int numComputers = searchByName(name);
+	std::cout << "Name: " << name << std::endl;
+	std::cout << "Number of occurrences: " << numComputers << std::endl;
+}
+
+
+
 void Binnacle::SetOrderCriteria(char oc){
 	for(std::vector<BinnacleLine>::iterator it = this->data.begin(); it != this->data.end(); it++){
 		(*it).setOrderCriteria(oc);
@@ -180,4 +190,92 @@ void Binnacle::setData(std::vector<BinnacleLine> sorted){
 }
 
 
+
+
+void Binnacle::sortData(char c = 'o',bool asc = true, int al = 5){
+	if((c == 't')||(c == 'e')||(c == 'y')||(c == 'a') || (c == 'p')){
+		// Sets the same sort criteria in all the books
+		SetOrderCriteria(c);
+
+		if (asc == true){
+
+			switch(al){
+			case 1:{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::mergesort(data,0,data.size()-1,OrderAl<BinnacleLine>::asc);
+				setData(st);
+
+				break;
+			}
+			case 2:
+			{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::bubble(data,OrderAl<BinnacleLine>::asc);
+				setData(st);
+
+				break;
+			}
+			case 3:
+			{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::insersion(data,OrderAl<BinnacleLine>::asc);
+				setData(st);
+				break;
+			}
+			case 4:
+			{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::selection(data,OrderAl<BinnacleLine>::asc);
+				setData(st);
+				break;
+			}
+			case 5:
+			{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::quickSort(data,0,data.size()-1,OrderAl<BinnacleLine>::asc);
+				setData(st);
+				break;
+			}
+			default:
+			{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::quickSort(data,0,data.size()-1,OrderAl<BinnacleLine>::asc);
+				setData(st);
+				break;
+			}
+			}
+		}else{
+
+			switch(al){
+			case 1:{
+				//MergeSort
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::mergesort(data,0,data.size()-1,OrderAl<BinnacleLine>::desc);
+				setData(st);
+
+				break;
+			}
+			case 2:{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::bubble(data,OrderAl<BinnacleLine>::desc);
+				setData(st);
+
+				break;
+			}
+			case 3:{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::insersion(data,OrderAl<BinnacleLine>::desc);
+				setData(st);
+				break;
+			}
+			case 4:{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::selection(data,OrderAl<BinnacleLine>::desc);
+				setData(st);
+				break;
+			}
+			case 5:{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::quickSort(data,0,data.size()-1,OrderAl<BinnacleLine>::desc);
+				setData(st);
+				break;
+			}
+			default:{
+				std::vector<BinnacleLine> st = OrderAl<BinnacleLine>::quickSort(data,0,data.size()-1,OrderAl<BinnacleLine>::desc);
+				setData(st);
+				break;
+			}
+			}
+		}
+	}
+}
 

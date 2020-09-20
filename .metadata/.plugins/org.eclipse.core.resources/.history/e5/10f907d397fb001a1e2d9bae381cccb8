@@ -1,0 +1,18 @@
+/*
+ * OrderAl.cpp
+ *
+ *  Created on: 20 sep. 2020
+ *      Author: luisd
+ */
+
+#include "OrderAl.h"
+
+OrderAl::OrderAl() {
+	// TODO Auto-generated constructor stub
+
+}
+
+OrderAl::~OrderAl() {
+	// TODO Auto-generated destructor stub
+}
+

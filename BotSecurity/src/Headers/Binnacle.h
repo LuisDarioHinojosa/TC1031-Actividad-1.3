@@ -42,9 +42,24 @@ public:
 	//Given a string representing a name, it will search the computer
 	int searchByName(std::string name);
 
+	// Will sort the algorithm in ascending order using mergesort (most efficient), will search by name, and will perform print the number of computers with that name
+	void sortedSearchByName(std::string name);
 
 	// It will Iterate throught the data in order to set the order criteria in all elements
 	void SetOrderCriteria(char oc);
+
+	/*
+	 * Sorts data by origin and destiny Name and Ports in descendant or ascendent order
+	 * You can choose the sort algorithm
+	 * default:
+	 * Origin Name
+	 * Ascendent Order
+	 * Quick Sort
+	 */
+	void sortData(char c, bool asc, int al);
+
+
+
 private:
 	std::vector<BinnacleLine> data;
 

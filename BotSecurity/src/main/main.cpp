@@ -14,7 +14,17 @@
 #include "../Headers/Binnacle.h"
 
 
-
+/*
+ * Since this is not a Binnacle strict functionality (more like a particular homework auxiliary function), i did not considered
+ * pertinent to include it inside of the class.
+ */
+void answerThree(Binnacle g){
+	std::string persons[7] = {"jeffrey","betty","katherine","scott","benjamin","samuel","raymond"};
+	for(int i = 0; i < 7; i++){
+		g.sortedSearchByName(persons[i]);
+		std::cout << std::endl;
+	}
+}
 
 
 
@@ -39,7 +49,7 @@ int main() {
 	std::cout << "Entries: " << bin.entriesPerDate(secondDate) << std::endl;
 
 	// Question 3:
-	std::cout << bin.searchByName("samuel") << std::endl;
+	answerThree(bin);
 
 	// Question 5
 	//bin.searchComputer("server.reto.com");

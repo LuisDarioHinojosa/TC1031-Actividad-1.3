@@ -1,0 +1,17 @@
+/*
+ * OrderAl.h
+ *
+ *  Created on: 20 sep. 2020
+ *      Author: luisd
+ */
+
+#ifndef ORDERAL_H_
+#define ORDERAL_H_
+
+class OrderAl {
+public:
+	OrderAl();
+	virtual ~OrderAl();
+};
+
+#endif /* ORDERAL_H_ */
