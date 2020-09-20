@@ -56,45 +56,9 @@ std::string BinnacleLine::getDestinyName(){
 	return this->destinyName;
 }
 
-void BinnacleLine::setOrderCriteria(char oc){
-	// validation: It can either be arranged by origin or destiny name
-	if(oc == 'o' || oc == 'd'){
-		this->orderCriteria = oc;
-
-	}
-}
-
 // outstream overload
 
 std::ostream & operator<<(std::ostream & os, const BinnacleLine & line){
 	os << "Date: " << line.date << " |Time: " << line.time << " |Origin IP: " << line.originIP << " |Origin Port: " << line.originPort << " |Origin Name: " << line.originName << " |Destiny IP: " << line.destinyIP << " |Destiny Port: " << line.destinyPort << " |Destiny Name: " << line.destinyName << std::endl;
 }
 
-
-
-
-
-
-// Operator Overload:
-bool BinnacleLine::operator<(BinnacleLine & line){
-	if(this->orderCriteria == 'o'){
-		return this->originName < line.getOriginName();
-	}
-	else if(this->orderCriteria == 'd'){
-		return this->destinyName < line.getDestinyName();
-
-	}
-}
-
-
-
-
-bool BinnacleLine::operator>(BinnacleLine & line){
-	if(this->orderCriteria == 'o'){
-		return this->originName > line.getOriginName();
-	}
-	else if(this->orderCriteria == 'd'){
-		return this->destinyName > line.getDestinyName();
-
-	}
-}

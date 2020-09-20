@@ -29,12 +29,6 @@ public:
 	// outstream overload
 	friend std::ostream & operator<<(std::ostream & os, const BinnacleLine & line);
 
-
-	// Comparison operators Overload:
-	bool operator<(BinnacleLine & line);
-	bool operator>(BinnacleLine & line);
-
-
 	// Setter
 	void setOrderCriteria(char oc);
 

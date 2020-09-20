@@ -1677,3 +1677,280 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\m
 g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
 Info: Nothing to build for BotSecurity
 Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+17:22:31 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:150:5: error: no declaration matches 'int Binnacle::searchByName(std::__cxx11::string)'
+ int Binnacle::searchByName(std::string name){
+     ^~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:40:6: note: candidate is: 'int Binnacle::searchByName(std::__cxx11::string, bool)'
+  int searchByName(std::string name, bool mode);
+      ^~~~~~~~~~~~
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+17:22:39 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:150:5: error: no declaration matches 'int Binnacle::searchByName(std::__cxx11::string)'
+ int Binnacle::searchByName(std::string name){
+     ^~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:40:6: note: candidate is: 'int Binnacle::searchByName(std::__cxx11::string, bool)'
+  int searchByName(std::string name, bool mode = true);
+      ^~~~~~~~~~~~
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+17:23:08 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:150:50: error: conflicting declaration 'bool name'
+ int Binnacle::searchByName(std::string name,bool name = true){
+                                             ~~~~~^~~~~~~~~~~
+..\src\SourceFiles\Binnacle.cpp:150:40: note: previous declaration as 'std::__cxx11::string name'
+ int Binnacle::searchByName(std::string name,bool name = true){
+                            ~~~~~~~~~~~~^~~~
+..\src\SourceFiles\Binnacle.cpp:150:5: error: no declaration matches 'int Binnacle::searchByName(std::__cxx11::string)'
+ int Binnacle::searchByName(std::string name,bool name = true){
+     ^~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:40:6: note: candidate is: 'int Binnacle::searchByName(std::__cxx11::string, bool)'
+  int searchByName(std::string name, bool mode = true);
+      ^~~~~~~~~~~~
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+17:23:14 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:150:61: error: default argument given for parameter 2 of 'int Binnacle::searchByName(std::__cxx11::string, bool)' [-fpermissive]
+ int Binnacle::searchByName(std::string name,bool mode = true){
+                                                             ^
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:40:6: note: previous specification in 'int Binnacle::searchByName(std::__cxx11::string, bool)' here
+  int searchByName(std::string name, bool mode = true);
+      ^~~~~~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+17:23:38 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:150:61: error: default argument given for parameter 2 of 'int Binnacle::searchByName(std::__cxx11::string, bool)' [-fpermissive]
+ int Binnacle::searchByName(std::string name,bool mode = true){
+                                                             ^
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:40:6: note: previous specification in 'int Binnacle::searchByName(std::__cxx11::string, bool)' here
+  int searchByName(std::string name, bool mode = true);
+      ^~~~~~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+17:24:02 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:25:02 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:30:19 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:30:41 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:34:58 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:154:5: error: no declaration matches 'int Binnacle::searchByName(std::__cxx11::string, bool)'
+ int Binnacle::searchByName(std::string name,bool mode){
+     ^~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:40:6: note: candidate is: 'int Binnacle::searchByName(std::__cxx11::string)'
+  int searchByName(std::string name);
+      ^~~~~~~~~~~~
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+17:35:08 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:37:59 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:63:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:38:19 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:63:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:38:54 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:63:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:40:37 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:71:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:43:04 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:71:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:45:38 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:71:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\SourceFiles\BinnacleLine.cpp: In member function 'bool BinnacleLine::operator<(BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:87:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:46:00 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:71:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\SourceFiles\BinnacleLine.cpp: In member function 'bool BinnacleLine::operator<(BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:87:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\SourceFiles\BinnacleLine.cpp: In member function 'bool BinnacleLine::operator>(BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:47:37 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:48:18 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:51:25 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+17:53:53 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+17:54:29 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:118:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity

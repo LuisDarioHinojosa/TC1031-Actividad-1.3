@@ -148,10 +148,10 @@ std::string Binnacle::extractMailName(std::string mail){
 
 /*
  * After analyzing the dataset, i discovered there are not instances of concrete person numbers in the destiny computer names
- * This (destiny computers) tend to be known web sites. Therefore, i decided to do a sequential search variation just on the origin names
+ * This (destiny computers) tend to be kwown web sites. Therefore, i decided to do a sequential search variation just on the origin names
  *
  */
-int Binnacle::searchByName(std::string name){
+int Binnacle::searchByName(std::string name,bool mode){
 	std::string extractedName, mail;
 
 	int count = 0;
@@ -165,19 +165,3 @@ int Binnacle::searchByName(std::string name){
 
 	return count;
 }
-
-
-void Binnacle::SetOrderCriteria(char oc){
-	for(std::vector<BinnacleLine>::iterator it = this->data.begin(); it != this->data.end(); it++){
-		(*it).setOrderCriteria(oc);
-	}
-}
-
-
-
-void Binnacle::setData(std::vector<BinnacleLine> sorted){
-	this->data = sorted;
-}
-
-
-

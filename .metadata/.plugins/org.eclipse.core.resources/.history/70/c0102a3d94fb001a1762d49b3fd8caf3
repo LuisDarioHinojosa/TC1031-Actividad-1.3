@@ -175,9 +175,5 @@ void Binnacle::SetOrderCriteria(char oc){
 
 
 
-void Binnacle::setData(std::vector<BinnacleLine> sorted){
-	this->data = sorted;
-}
-
 
 

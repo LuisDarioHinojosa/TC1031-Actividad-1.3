@@ -85,16 +85,3 @@ bool BinnacleLine::operator<(BinnacleLine & line){
 
 	}
 }
-
-
-
-
-bool BinnacleLine::operator>(BinnacleLine & line){
-	if(this->orderCriteria == 'o'){
-		return this->originName > line.getOriginName();
-	}
-	else if(this->orderCriteria == 'd'){
-		return this->destinyName > line.getDestinyName();
-
-	}
-}
