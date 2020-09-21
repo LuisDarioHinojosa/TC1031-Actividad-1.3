@@ -60,8 +60,9 @@ int main() {
 
 
 	// Question 7:
-	std::cout << "Ports below 1000: " << std::endl;
-	bin.printDestinyPorts(1000,OrderAl<int>::asc);
+	//std::vector<int> vec = bin.getDestinyPorts(1000,OrderAl<int>::asc);
+    //std::copy(vec.begin(), vec.end(), std::ostream_iterator<int>(std::cout, " "));
+	bin.printDestinyPorts();
 
 
 	std::cout << "finish" << std::endl;

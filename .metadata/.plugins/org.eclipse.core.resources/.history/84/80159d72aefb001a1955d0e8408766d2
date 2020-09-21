@@ -11,7 +11,6 @@
 #include <iostream>
 #include <sstream>
 #include <fstream>
-#include <stdio.h>
 #include <iterator>
 #include <algorithm>
 
@@ -94,7 +93,6 @@ void Binnacle::searchComputer(std::string name){
 		}
 	}
 
-	/*
 
 	std::cout << "The following origin computers were found:" << std::endl;
 	for(std::vector<BinnacleLine>::iterator it = originNames.begin(); it != originNames.end(); it++){
@@ -104,7 +102,8 @@ void Binnacle::searchComputer(std::string name){
 	for(std::vector<BinnacleLine>::iterator it = destinyNames.begin(); it != destinyNames.end(); it++){
 		std::cout << (*it) << std::endl;
 	}
-	*/
+
+
 	std::cout << "Total computers named " << name << " found: " << originNames.size()+destinyNames.size() << std::endl;
 
 }
@@ -304,9 +303,3 @@ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool compare(i
 	return set;
 }
 
-
-void Binnacle::printDestinyPorts(int threshold = 1000 ,bool compare(int,int) = OrderAl<int>::asc){
-	std::vector<int> vec = getDestinyPorts(threshold,compare);
-    std::copy(vec.begin(), vec.end(), std::ostream_iterator<int>(std::cout, " "));
-    std::cout << std::endl;
-}

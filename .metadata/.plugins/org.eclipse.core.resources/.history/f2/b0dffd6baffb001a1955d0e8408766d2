@@ -304,9 +304,3 @@ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool compare(i
 	return set;
 }
 
-
-void Binnacle::printDestinyPorts(int threshold = 1000 ,bool compare(int,int) = OrderAl<int>::asc){
-	std::vector<int> vec = getDestinyPorts(threshold,compare);
-    std::copy(vec.begin(), vec.end(), std::ostream_iterator<int>(std::cout, " "));
-    std::cout << std::endl;
-}

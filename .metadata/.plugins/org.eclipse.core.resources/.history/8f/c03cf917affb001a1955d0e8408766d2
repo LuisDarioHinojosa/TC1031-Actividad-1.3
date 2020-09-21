@@ -63,9 +63,6 @@ public:
 	std::vector<int> getDestinyPorts(int threshold, bool (*)(int, int));
 
 
-	// Prints the destiny ports that satisfy a certain threshold.
-	void printDestinyPorts(int threshold, bool (*)(int, int));
-
 private:
 	std::vector<BinnacleLine> data;
 

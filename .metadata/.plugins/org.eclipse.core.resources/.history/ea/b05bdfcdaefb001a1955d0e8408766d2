@@ -172,5 +172,4 @@ void Searcher<T>::swapValues(std::vector <T>*vec,int index1, int index2){
 }
 
 
-
 #endif /* SEARCHER_H_ */

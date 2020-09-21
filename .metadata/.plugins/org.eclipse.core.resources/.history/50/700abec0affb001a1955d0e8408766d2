@@ -60,7 +60,6 @@ int main() {
 
 
 	// Question 7:
-	std::cout << "Ports below 1000: " << std::endl;
 	bin.printDestinyPorts(1000,OrderAl<int>::asc);
 
 

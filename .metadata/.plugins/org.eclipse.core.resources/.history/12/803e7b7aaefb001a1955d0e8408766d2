@@ -45,7 +45,7 @@ int main() {
 
 
 	// Question 1:
-	bin.showTotalNumberOfEntries();
+	//bin.showTotalNumberOfEntries();
 
 	// Question 2:
 	std::string secondDate = bin.getSecondDate();
@@ -56,12 +56,12 @@ int main() {
 	answerThree(bin);
 
 	// Question 5
-	bin.searchComputer("server.reto.com");
+	//bin.searchComputer("server.reto.com");
 
 
 	// Question 7:
-	std::cout << "Ports below 1000: " << std::endl;
-	bin.printDestinyPorts(1000,OrderAl<int>::asc);
+	std::vector<int> vec = bin.getDestinyPorts(1000,OrderAl<int>::asc);
+    std::copy(vec.begin(), vec.end(), std::ostream_iterator<int>(std::cout, " "));
 
 
 	std::cout << "finish" << std::endl;
