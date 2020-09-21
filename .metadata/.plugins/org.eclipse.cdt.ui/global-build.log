@@ -2174,3 +2174,440 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
 g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
 Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+19:16:16 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:71:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\SourceFiles\BinnacleLine.cpp: In member function 'bool BinnacleLine::operator<(BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:95:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\SourceFiles\BinnacleLine.cpp: In member function 'bool BinnacleLine::operator>(BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:116:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:21:32 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:25:08 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: no declaration matches 'std::vector<int> Binnacle::getDestinyPorts(int)'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000){
+                   ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp:285:19: note: no functions named 'std::vector<int> Binnacle::getDestinyPorts(int)'
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:25:11 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: no declaration matches 'std::vector<int> Binnacle::getDestinyPorts(int)'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000){
+                   ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp:285:19: note: no functions named 'std::vector<int> Binnacle::getDestinyPorts(int)'
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:25:15 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int)':
+..\src\SourceFiles\Binnacle.cpp:291:6: warning: unused variable 'oPort' [-Wunused-variable]
+  int oPort;
+      ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:27:07 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int)':
+..\src\SourceFiles\Binnacle.cpp:291:6: warning: unused variable 'oPort' [-Wunused-variable]
+  int oPort;
+      ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:27:44 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int)':
+..\src\SourceFiles\Binnacle.cpp:292:6: warning: unused variable 'oPort' [-Wunused-variable]
+  int oPort;
+      ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:31:04 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int)':
+..\src\SourceFiles\Binnacle.cpp:292:6: warning: variable 'dPort' set but not used [-Wunused-but-set-variable]
+  int dPort;
+      ^~~~~
+..\src\SourceFiles\Binnacle.cpp:293:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:37:09 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: no declaration matches 'std::vector<int> Binnacle::getDestinyPorts(int)'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000){
+                   ^~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:63:19: note: candidate is: 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+  std::vector<int> getDestinyPorts(int threshold, bool (*)(int, int));
+                   ^~~~~~~~~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:37:35 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: no declaration matches 'std::vector<int> Binnacle::getDestinyPorts(int, int (*)(int, int))'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, int compare(int, int)){
+                   ^~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:63:19: note: candidate is: 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+  std::vector<int> getDestinyPorts(int threshold, bool (*)(int, int));
+                   ^~~~~~~~~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:38:31 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: no declaration matches 'std::vector<int> Binnacle::getDestinyPorts(int, int (*)(int, int))'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, int compare(int, int)){
+                   ^~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:63:19: note: candidate is: 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+  std::vector<int> getDestinyPorts(int threshold, bool (*)(int, int));
+                   ^~~~~~~~~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:38:34 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: no declaration matches 'std::vector<int> Binnacle::getDestinyPorts(int, int (*)(int, int))'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, int compare(int, int)){
+                   ^~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:63:19: note: candidate is: 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+  std::vector<int> getDestinyPorts(int threshold, bool (*)(int, int));
+                   ^~~~~~~~~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:38:40 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: default argument missing for parameter 2 of 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool compare(int, int)){
+                   ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:293:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:38:43 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: default argument missing for parameter 2 of 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool compare(int, int)){
+                   ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:293:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:38:56 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: no declaration matches 'std::vector<int> Binnacle::getDestinyPorts(int, bool)'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool compare){
+                   ^~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:63:19: note: candidate is: 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+  std::vector<int> getDestinyPorts(int threshold, bool (*)(int, int));
+                   ^~~~~~~~~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:39:37 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: no declaration matches 'std::vector<int> Binnacle::getDestinyPorts(int, bool)'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool compare){
+                   ^~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:63:19: note: candidate is: 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+  std::vector<int> getDestinyPorts(int threshold, bool (*)(int, int));
+                   ^~~~~~~~~~~~~~~
+In file included from ..\src\SourceFiles\Binnacle.cpp:8:
+..\src\SourceFiles\../Headers/Binnacle.h:15:7: note: 'class Binnacle' defined here
+ class Binnacle {
+       ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:40:39 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: default argument missing for parameter 2 of 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool compare(int,int)){
+                   ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:293:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:40:55 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: default argument missing for parameter 2 of 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool comp(int, int)){
+                   ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:293:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:41:07 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: default argument missing for parameter 2 of 'static std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool comp(int, int)){
+                   ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In static member function 'static std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:287:21: error: cannot call member function 'void Binnacle::sortData(char, bool, int)' without object
+  sortData('l',true,5);
+                     ^
+..\src\SourceFiles\Binnacle.cpp:294:47: error: 'this' is unavailable for static member functions
+  for(std::vector<BinnacleLine>::iterator it = this->data.begin(); it != this->data.end(); it++){
+                                               ^~~~
+..\src\SourceFiles\Binnacle.cpp:294:73: error: 'this' is unavailable for static member functions
+  for(std::vector<BinnacleLine>::iterator it = this->data.begin(); it != this->data.end(); it++){
+                                                                         ^~~~
+..\src\SourceFiles\Binnacle.cpp:293:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:41:13 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp:285:19: error: default argument missing for parameter 2 of 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool comp(int, int)){
+                   ^~~~~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:293:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:42:02 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:292:6: warning: variable 'dPort' set but not used [-Wunused-but-set-variable]
+  int dPort;
+      ^~~~~
+..\src\SourceFiles\Binnacle.cpp:293:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:42:15 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:292:6: warning: variable 'dPort' set but not used [-Wunused-but-set-variable]
+  int dPort;
+      ^~~~~
+..\src\SourceFiles\Binnacle.cpp:293:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:44:08 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:293:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:44:27 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:294:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:120:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:47:38 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))':
+..\src\SourceFiles\Binnacle.cpp:294:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:120:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:49:14 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:120:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:50:54 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:120:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+19:53:39 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:62:45: error: no matching function for call to 'Binnacle::getDestinyPorts()'
+  std::vector<int> vec = bin.getDestinyPorts();
+                                             ^
+In file included from ..\src\main\main.cpp:17:
+..\src\main\../Headers/Binnacle.h:63:19: note: candidate: 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+  std::vector<int> getDestinyPorts(int threshold, bool (*)(int, int));
+                   ^~~~~~~~~~~~~~~
+..\src\main\../Headers/Binnacle.h:63:19: note:   candidate expects 2 arguments, 0 provided
+19:53:50 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+..\src\main\main.cpp: In function 'int main()':
+..\src\main\main.cpp:62:49: error: no matching function for call to 'Binnacle::getDestinyPorts(int)'
+  std::vector<int> vec = bin.getDestinyPorts(1000);
+                                                 ^
+In file included from ..\src\main\main.cpp:17:
+..\src\main\../Headers/Binnacle.h:63:19: note: candidate: 'std::vector<int> Binnacle::getDestinyPorts(int, bool (*)(int, int))'
+  std::vector<int> getDestinyPorts(int threshold, bool (*)(int, int));
+                   ^~~~~~~~~~~~~~~
+..\src\main\../Headers/Binnacle.h:63:19: note:   candidate expects 2 arguments, 1 provided
+19:54:36 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+19:55:17 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:120:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity

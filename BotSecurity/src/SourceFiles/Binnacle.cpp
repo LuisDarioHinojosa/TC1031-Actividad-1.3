@@ -7,6 +7,7 @@
 
 #include "../Headers/Binnacle.h"
 #include "../Headers/OrderAl.h"
+#include "../Headers/Searcher.h"
 #include <iostream>
 #include <sstream>
 #include <fstream>
@@ -277,5 +278,28 @@ void Binnacle::sortData(char c = 'o',bool asc = true, int al = 5){
 			}
 		}
 	}
+}
+
+
+
+
+std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool compare(int, int) = OrderAl<int>::asc){
+	// sort in ascending order by destination ports
+	sortData('l',true,5);
+	/*The idea is that the function returns a set of ports that satisfy the threshold
+	 *I did not implemented a full Set data structure class because of lack of time. That would have been the ideal implementation.
+	 */
+	std::vector <int> set;
+	int dPort;
+	bool exist;
+	for(std::vector<BinnacleLine>::iterator it = this->data.begin(); it != this->data.end(); it++){
+		dPort = (*it).getDestinyPort();
+		exist = Searcher<int>::elementExist(set,dPort);
+		if ((compare(dPort,threshold)== true) && (exist == false)&& (dPort > 0)){
+			set.push_back(dPort);
+		}
+	}
+
+	return set;
 }
 

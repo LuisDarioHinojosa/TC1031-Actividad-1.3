@@ -9,9 +9,13 @@
 #include <iostream>
 #include <string>
 
+#include <iterator>
+#include <stdio.h>
+#include <algorithm>/* printf, scanf, puts, NULL */
 
 
 #include "../Headers/Binnacle.h"
+#include "../Headers/OrderAl.h"
 
 
 /*
@@ -53,6 +57,12 @@ int main() {
 
 	// Question 5
 	//bin.searchComputer("server.reto.com");
+
+
+	// Question 7:
+	std::vector<int> vec = bin.getDestinyPorts(1000,OrderAl<int>::asc);
+    std::copy(vec.begin(), vec.end(), std::ostream_iterator<int>(std::cout, " "));
+
 
 	std::cout << "finish" << std::endl;
 
