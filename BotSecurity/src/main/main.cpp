@@ -44,6 +44,7 @@ int main() {
 	//bin.showEntries();
 
 
+
 	// Question 1:
 	bin.showTotalNumberOfEntries();
 
@@ -51,12 +52,32 @@ int main() {
 	std::string secondDate = bin.getSecondDate();
 	std::cout << "Second date registered is: " << secondDate << std::endl;
 	std::cout << "Entries: " << bin.entriesPerDate(secondDate) << std::endl;
+	std::cout << std::endl;
 
 	// Question 3:
 	answerThree(bin);
 
+
+	// Question4
+	std::cout << "Mail Services Found" << std::endl;
+	std::vector<std::string> v = bin.searchMailServicesByPorts(465,993);
+	std::copy(v.begin(),v.end(),std::ostream_iterator<std::string>(std::cout, " "));
+	std::cout << std::endl;
+	std::cout << std::endl;
+
+
 	// Question 5
 	bin.searchComputer("server.reto.com");
+
+
+	// Question 6
+	std::cout <<"Internal Sever Directions found:" << std::endl;
+	std::vector<std::string> directions = bin.searchCompanyInternalDirections();
+	std::copy(directions.begin(),directions.end(),std::ostream_iterator<std::string>(std::cout, " "));
+	std::cout << std::endl;
+	std::cout << std::endl;
+
+
 
 
 	// Question 7:
@@ -64,7 +85,8 @@ int main() {
 	bin.printDestinyPorts(1000,OrderAl<int>::asc);
 
 
-	std::cout << "finish" << std::endl;
+
+
 
 	return 0;
 }

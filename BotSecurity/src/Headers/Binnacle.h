@@ -66,6 +66,22 @@ public:
 	// Prints the destiny ports that satisfy a certain threshold.
 	void printDestinyPorts(int threshold, bool (*)(int, int));
 
+
+
+
+	std::vector<std::string> searchMailServicesByPorts(int p1, int p2);
+
+
+	// criteria for company direction -> origin ip = [10, 172, 192]
+	// Extract first three number stacks (ej 10.152.206)
+	std::vector<std::string> searchCompanyInternalDirections();
+
+
+	//  Given an origin IP, it extracts a company
+	std::string extractCompanyInternalDirection(std::string ip);
+
+
+
 private:
 	std::vector<BinnacleLine> data;
 

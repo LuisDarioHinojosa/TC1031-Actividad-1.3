@@ -2683,3 +2683,272 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\s
  ^
 g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
 Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+09:22:51 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+11:29:14 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+11:29:40 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+11:30:37 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+13:09:15 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+13:19:41 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+13:22:35 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+13:23:34 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<std::__cxx11::basic_string<char> > Binnacle::searchMailServicesByPorts(int, int)':
+..\src\SourceFiles\Binnacle.cpp:324:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+13:32:30 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+09:15:50 **** Rebuild of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\BinnacleLine.o" "..\\src\\SourceFiles\\BinnacleLine.cpp" 
+..\src\SourceFiles\BinnacleLine.cpp: In function 'std::ostream& operator<<(std::ostream&, const BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:71:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\SourceFiles\BinnacleLine.cpp: In member function 'bool BinnacleLine::operator<(BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:95:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\SourceFiles\BinnacleLine.cpp: In member function 'bool BinnacleLine::operator>(BinnacleLine&)':
+..\src\SourceFiles\BinnacleLine.cpp:116:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+09:17:12 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+09:17:24 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+09:18:20 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+09:19:32 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+09:20:28 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+Info: Nothing to build for BotSecurity
+09:27:54 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<std::__cxx11::basic_string<char> > Binnacle::searchCompanyInternalDirections()':
+..\src\SourceFiles\Binnacle.cpp:349:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+09:29:15 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::extractCompanyInternalDirection(std::__cxx11::string)':
+..\src\SourceFiles\Binnacle.cpp:345:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<std::__cxx11::basic_string<char> > Binnacle::searchCompanyInternalDirections()':
+..\src\SourceFiles\Binnacle.cpp:351:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+09:31:19 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::extractCompanyInternalDirection(std::__cxx11::string)':
+..\src\SourceFiles\Binnacle.cpp:344:14: error: could not convert 'ip.std::__cxx11::basic_string<char>::operator[](4294967293)' from '__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type' {aka 'char'} to 'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'}
+  return ip[-3];
+              ^
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<std::__cxx11::basic_string<char> > Binnacle::searchCompanyInternalDirections()':
+..\src\SourceFiles\Binnacle.cpp:351:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+09:31:38 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::extractCompanyInternalDirection(std::__cxx11::string)':
+..\src\SourceFiles\Binnacle.cpp:345:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<std::__cxx11::basic_string<char> > Binnacle::searchCompanyInternalDirections()':
+..\src\SourceFiles\Binnacle.cpp:351:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+09:33:49 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::vector<std::__cxx11::basic_string<char> > Binnacle::searchCompanyInternalDirections()':
+..\src\SourceFiles\Binnacle.cpp:356:7: warning: unused variable 'exist' [-Wunused-variable]
+  bool exist;
+       ^~~~~
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+09:35:50 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+09:37:49 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+09:39:48 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+09:41:28 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+09:49:46 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+09:53:11 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SourceFiles\\Binnacle.o" "..\\src\\SourceFiles\\Binnacle.cpp" 
+..\src\SourceFiles\Binnacle.cpp: In member function 'std::__cxx11::string Binnacle::getSecondDate()':
+..\src\SourceFiles\Binnacle.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+09:53:59 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity
+09:54:29 **** Incremental Build of configuration Debug for project BotSecurity ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main\\main.o" "..\\src\\main\\main.cpp" 
+g++ -o BotSecurity.exe "src\\SourceFiles\\Binnacle.o" "src\\SourceFiles\\BinnacleLine.o" "src\\main\\main.o" 
+Info: Nothing to build for BotSecurity

@@ -50,6 +50,7 @@ void Binnacle::showEntries(){
 
 void Binnacle::showTotalNumberOfEntries(){
 	std::cout << "Total Entries: " << this->data.size() <<std::endl;
+	std::cout << std:: endl;
 }
 
 void Binnacle::readCsvLines(std::string filename){
@@ -106,7 +107,7 @@ void Binnacle::searchComputer(std::string name){
 	}
 	*/
 	std::cout << "Total computers named " << name << " found: " << originNames.size()+destinyNames.size() << std::endl;
-
+	std::cout << std::endl;
 }
 
 
@@ -286,7 +287,7 @@ void Binnacle::sortData(char c = 'o',bool asc = true, int al = 5){
 
 std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool compare(int, int) = OrderAl<int>::asc){
 	// sort in ascending order by destination ports
-	sortData('l',true,5);
+	sortData('f',true,5);
 	/*The idea is that the function returns a set of ports that satisfy the threshold
 	 *I did not implemented a full Set data structure class because of lack of time. That would have been the ideal implementation.
 	 */
@@ -299,6 +300,11 @@ std::vector <int> Binnacle::getDestinyPorts(int threshold = 1000, bool compare(i
 		if ((compare(dPort,threshold)== true) && (exist == false)&& (dPort > 0)){
 			set.push_back(dPort);
 		}
+		/*
+		if(dPort > threshold){
+			break;
+		}
+		*/
 	}
 
 	return set;
@@ -309,4 +315,55 @@ void Binnacle::printDestinyPorts(int threshold = 1000 ,bool compare(int,int) = O
 	std::vector<int> vec = getDestinyPorts(threshold,compare);
     std::copy(vec.begin(), vec.end(), std::ostream_iterator<int>(std::cout, " "));
     std::cout << std::endl;
+}
+
+
+std::vector<std::string> Binnacle::searchMailServicesByPorts(int p1, int p2){
+
+	std::vector<std::string> set;
+	bool exist;
+	std::string mailService;
+	for(std::vector<BinnacleLine>::iterator it = this->data.begin(); it != this->data.end(); it++){
+		mailService = (*it).getDestinyName();
+		if(((*it).getDestinyPort() == p1)||((*it).getDestinyPort() == p2)||(mailService.find("mail")!= std::string::npos)){
+			//mailService = extractMailName((*it).getDestinyName());
+			mailService = (*it).getDestinyName();
+			exist = Searcher<std::string>::elementExist(set,mailService);
+			if(exist == false){
+				set.push_back(mailService);
+			}
+
+		}
+	}
+
+	return set;
+}
+
+
+std::string Binnacle::extractCompanyInternalDirection(std::string ip){
+	std::stringstream ss(ip);
+	std::string s1,s2,s3;
+	getline(ss,s1,'.');
+	getline(ss,s2,'.');
+	getline(ss,s3,'.');
+	return s1 + "." + s2 +"." + s3;
+}
+
+
+std::vector<std::string> Binnacle::searchCompanyInternalDirections(){
+	std::string op1 = "10",op2 = "172",op3 = "192",extract, ip;
+	std::vector<std::string>vec;
+	bool exist;
+	for(std::vector<BinnacleLine>::iterator it = this->data.begin(); it != this->data.end(); it++){
+		ip = (*it).getOriginIP();
+		extract = extractMailName(ip);
+		if((extract == op1)||(extract == op2)||(extract == op3)){
+			extract = extractCompanyInternalDirection(ip);
+			exist = Searcher<std::string>::elementExist(vec,extract);
+			if(exist == false){
+				vec.push_back(extract);
+			}
+		}
+	}
+	return vec;
 }
